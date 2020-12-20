@@ -1,3 +1,33 @@
+*{
+    background-color: seashell;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
 table, th, td {
     border: 1px solid black;
+}
+
+p{
+    color: blue;
+}
+h1,h2,h3{
+    color:red;
+    padding: 20px 14px 5px 34px;
+
+}
+li{
+    color: crimson;
+}
+li>a{
+    color:darkorange
+}
+
+ol>li{
+    font-weight: 800;
+}
+
+h1 + b{
+    color: green;
 }
