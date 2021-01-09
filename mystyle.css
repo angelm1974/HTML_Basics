@@ -1,0 +1,14 @@
+p.myClass{
+        color: #0d6efd;
+        border: blueviolet;
+        background-color: chartreuse;
+        border-style: solid;
+        border-radius: 10px;
+       margin: 10px;
+        height: 200px;
+        text-align: center;
+        padding-top: 90px;
+    }
+    .bg-dark {
+        background-color: #221f20 !important;
+    }
