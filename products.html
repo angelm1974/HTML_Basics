@@ -12,8 +12,12 @@
     <title>Products</title>
   </head>
   <body>
-    <!-- NAV -->
-    <ul class="nav nav-pills nav-fill">
+    <!-- Main Content Container -->
+    <div class="container-fluid">
+      
+      <!-- Navigation Section -->
+      <nav class="navigation-section">
+        <ul class="nav nav-pills nav-fill">
         <li class="nav-item">
           <a class="nav-link"  href="index.html">HOME</a>
         </li>
@@ -28,10 +32,74 @@
         </li>
         <li class="nav-item">
             <a class="nav-link" href="contacts.html">Contact</a>
-          </li>
-      </ul>
-      <!-- /NAV -->
-    <!-- Optional JavaScript; choose one of the two! -->
+        </ul>
+      </nav>
+      <!-- /Navigation Section -->
+      
+      <!-- Main Content Area -->
+      <main class="main-content mt-4">
+        <div class="row">
+          <div class="col-12">
+            <!-- Products Header Section -->
+            <section class="products-header">
+              <div class="jumbotron">
+                <h1 class="display-4">Our Products</h1>
+                <p class="lead">Discover our range of web development solutions and tools.</p>
+              </div>
+            </section>
+            
+            <!-- Products Grid Section -->
+            <section class="products-grid">
+              <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                  <div class="card">
+                    <img src="images/woman.png" class="card-img-top" alt="Website Templates">
+                    <div class="card-body">
+                      <h5 class="card-title">Website Templates</h5>
+                      <p class="card-text">Professional, responsive website templates built with modern frameworks.</p>
+                      <div class="card-footer">
+                        <button class="btn btn-primary">Learn More</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4 mb-4">
+                  <div class="card">
+                    <img src="images/netflix-logo.png" class="card-img-top" alt="UI Components">
+                    <div class="card-body">
+                      <h5 class="card-title">UI Components</h5>
+                      <p class="card-text">Reusable interface components for modern web applications.</p>
+                      <div class="card-footer">
+                        <button class="btn btn-primary">Learn More</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4 mb-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Custom Solutions</h5>
+                      <p class="card-text">Tailored web development solutions for your specific needs.</p>
+                      <div class="card-footer">
+                        <button class="btn btn-primary">Contact Us</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+      <!-- /Main Content Area -->
+      
+    </div>
+    <!-- /Main Content Container -->
+
+    <!-- JavaScript Dependencies -->
+    <!-- Bootstrap and jQuery are loaded at the bottom for better performance -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

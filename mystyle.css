@@ -1,14 +1,98 @@
-p.myClass{
-        color: #0d6efd;
-        border: blueviolet;
-        background-color: chartreuse;
-        border-style: solid;
-        border-radius: 10px;
-       margin: 10px;
-        height: 200px;
-        text-align: center;
-        padding-top: 90px;
+/* ========================================
+   Custom Styles for HTML Basics Project
+   ======================================== */
+
+/* Custom Class Styling */
+/* This class creates a colorful box with rounded corners */
+p.myClass {
+    color: #0d6efd;                /* Bootstrap primary blue text color */
+    border: blueviolet;            /* Purple border color */
+    background-color: chartreuse;  /* Bright green background */
+    border-style: solid;           /* Solid border style */
+    border-radius: 10px;           /* Rounded corners */
+    margin: 10px;                  /* External spacing */
+    height: 200px;                 /* Fixed height */
+    text-align: center;            /* Center-aligned text */
+    padding-top: 90px;             /* Top padding to center text vertically */
+}
+
+/* Bootstrap Override - Dark Theme Enhancement */
+/* Custom dark background color for navigation and dark sections */
+.bg-dark {
+    background-color: #221f20 !important;  /* Custom dark color override */
+}
+
+/* Additional Custom Styles */
+
+/* Navigation Enhancement */
+.navigation-section .nav-pills .nav-link {
+    transition: all 0.3s ease;     /* Smooth transition effects */
+}
+
+.navigation-section .nav-pills .nav-link:hover {
+    transform: translateY(-2px);   /* Subtle hover lift effect */
+}
+
+/* Card Styling Enhancements */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  /* Smooth transitions */
+    border: none;                   /* Remove default border */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);  /* Subtle shadow */
+}
+
+.card:hover {
+    transform: translateY(-5px);    /* Lift effect on hover */
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);  /* Enhanced shadow on hover */
+}
+
+/* Jumbotron Styling */
+.jumbotron {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);  /* Gradient background */
+    color: white;                   /* White text for contrast */
+    border-radius: 15px;            /* Rounded corners */
+}
+
+/* Main Content Spacing */
+.main-content {
+    padding-bottom: 2rem;           /* Bottom spacing for content */
+}
+
+/* Form Styling */
+.form-control:focus {
+    border-color: #667eea;          /* Custom focus color */
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);  /* Custom focus shadow */
+}
+
+/* Button Enhancements */
+.btn {
+    border-radius: 25px;            /* Rounded button style */
+    transition: all 0.3s ease;     /* Smooth transitions */
+}
+
+/* Image Responsive Styling */
+.card-img-top {
+    height: 200px;                  /* Fixed height for consistency */
+    object-fit: cover;              /* Maintain aspect ratio */
+    border-radius: 10px 10px 0 0;  /* Rounded top corners only */
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 2rem 1rem;         /* Reduced padding on mobile */
     }
-    .bg-dark {
-        background-color: #221f20 !important;
+    
+    .main-content {
+        padding: 0 15px;            /* Side padding on mobile */
     }
+    
+    .card {
+        margin-bottom: 1rem;        /* Consistent spacing on mobile */
+    }
+}
+
+/* Icon Styling */
+.bi {
+    margin-right: 0.5rem;           /* Spacing after Bootstrap icons */
+    color: #667eea;                 /* Custom icon color */
+}
