@@ -12,8 +12,12 @@
     <title>Home</title>
   </head>
   <body>
-   <!-- NAV -->
-   <ul class="nav nav-pills nav-fill">
+    <!-- Main Content Container -->
+    <div class="container-fluid">
+      
+      <!-- Navigation Section -->
+      <nav class="navigation-section">
+        <ul class="nav nav-pills nav-fill">
     <li class="nav-item">
       <a class="nav-link active" href="index.html">HOME</a>
     </li>
@@ -28,11 +32,67 @@
     </li>
     <li class="nav-item">
         <a class="nav-link" href="contacts.html">Contact</a>
-      </li>
-  </ul>
-  <!-- /NAV -->
+        </ul>
+      </nav>
+      <!-- /Navigation Section -->
+      
+      <!-- Main Content Area -->
+      <main class="main-content mt-4">
+        <div class="row">
+          <div class="col-12">
+            <!-- Welcome Section -->
+            <section class="welcome-section">
+              <div class="jumbotron">
+                <h1 class="display-4">Welcome to HTML Basics</h1>
+                <p class="lead">A demonstration website showcasing HTML5, CSS3, and Bootstrap fundamentals.</p>
+                <hr class="my-4">
+                <p>Explore our pages to see different web development concepts in action.</p>
+                <a class="btn btn-primary btn-lg" href="about.html" role="button">Learn More</a>
+              </div>
+            </section>
+          </div>
+        </div>
+        
+        <!-- Features Section -->
+        <section class="features-section">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Responsive Design</h5>
+                  <p class="card-text">Built with Bootstrap for mobile-first responsive layout.</p>
+                  <a href="products.html" class="btn btn-outline-primary">View Products</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Modern CSS</h5>
+                  <p class="card-text">Custom styling with CSS3 features and modern practices.</p>
+                  <a href="service.html" class="btn btn-outline-primary">Our Services</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Clean Code</h5>
+                  <p class="card-text">Semantic HTML5 structure with proper documentation.</p>
+                  <a href="contacts.html" class="btn btn-outline-primary">Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- /Main Content Area -->
+      
+    </div>
+    <!-- /Main Content Container -->
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- JavaScript Dependencies -->
+    <!-- Bootstrap and jQuery are loaded at the bottom for better performance -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

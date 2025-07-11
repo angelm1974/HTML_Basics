@@ -11,8 +11,13 @@
     <link rel="stylesheet" href="mystyle.css">
     <title>About</title>
   </head>
-  <!-- NAV -->
-  <ul class="nav nav-pills nav-fill">
+  <body>
+    <!-- Main Content Container -->
+    <div class="container-fluid">
+      
+      <!-- Navigation Section -->
+      <nav class="navigation-section">
+        <ul class="nav nav-pills nav-fill">
     <li class="nav-item">
       <a class="nav-link" href="index.html">HOME</a>
     </li>
@@ -27,10 +32,57 @@
     </li>
     <li class="nav-item">
         <a class="nav-link" href="contacts.html">Contact</a>
-      </li>
-  </ul>
-  <!-- /NAV -->
-    <!-- Optional JavaScript; choose one of the two! -->
+        </ul>
+      </nav>
+      <!-- /Navigation Section -->
+      
+      <!-- Main Content Area -->
+      <main class="main-content mt-4">
+        <div class="row">
+          <div class="col-12">
+            <!-- About Section -->
+            <section class="about-section">
+              <div class="jumbotron">
+                <h1 class="display-4">About HTML Basics</h1>
+                <p class="lead">Learn about our educational web development project.</p>
+              </div>
+              
+              <div class="row">
+                <div class="col-md-8">
+                  <h2>Our Mission</h2>
+                  <p>HTML Basics is designed to demonstrate fundamental web development concepts using modern technologies. This project serves as a learning resource for students and developers interested in understanding how HTML5, CSS3, and Bootstrap work together to create responsive, accessible websites.</p>
+                  
+                  <h3>What You'll Learn</h3>
+                  <ul>
+                    <li>Semantic HTML5 structure and best practices</li>
+                    <li>Responsive design with Bootstrap framework</li>
+                    <li>Custom CSS styling and modern CSS3 features</li>
+                    <li>Proper code organization and documentation</li>
+                    <li>Cross-browser compatibility considerations</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <div class="card">
+                    <div class="card-header">
+                      <h5>Technologies Used</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="myClass">HTML5 + CSS3 + Bootstrap 4</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+      <!-- /Main Content Area -->
+      
+    </div>
+    <!-- /Main Content Container -->
+
+    <!-- JavaScript Dependencies -->
+    <!-- Bootstrap and jQuery are loaded at the bottom for better performance -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
